@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="extersion">
+      <UniqueIdentifier>{324a2a2e-64fe-4a9d-988a-158f68ae16bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extersion\DataStruct">
+      <UniqueIdentifier>{4133ba22-8e30-4cc8-a43d-8204f6d97cb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extersion\Math">
+      <UniqueIdentifier>{7bf18139-63f1-4165-aef8-07ab5baa325e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{d4e08da2-2b0f-417f-a313-9dc39f57128a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{9e6f0b10-44d5-428b-8893-11149aabcecc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\MemorySystem">
+      <UniqueIdentifier>{b1fdf291-956c-4876-af87-82707f3bb35d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\GTimerSystem">
+      <UniqueIdentifier>{f3d9d208-de7e-4da4-a040-04d34e28786e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\GinputSystem">
+      <UniqueIdentifier>{7a44d334-4d3d-47f2-808b-9aabf97917b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\GDispatcherSystem">
+      <UniqueIdentifier>{dbc31132-9b2e-4945-a4ea-3106dfd9a468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GApplication">
+      <UniqueIdentifier>{b41e1ac0-fc00-41cc-b964-7ad14f26aeca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extersion\nocopy">
+      <UniqueIdentifier>{78977de2-af5d-4e6f-bfe3-7eb1adadcf42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extersion\regex">
+      <UniqueIdentifier>{2d789f25-c4ff-4bdd-970a-9e0aac1e0bcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extersion\tinyxml">
+      <UniqueIdentifier>{e088be3e-e11d-4bf2-bf37-7561e9a652e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extersion\regex\pcre2">
+      <UniqueIdentifier>{8ae4b176-df5a-42a2-87e6-cbafcb04593f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extersion\DataIOUtils">
+      <UniqueIdentifier>{93594427-64a7-4555-acf1-572bf6155d12}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GResource.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="extersion\GExtersion.h">
+      <Filter>extersion</Filter>
+    </ClInclude>
+    <ClInclude Include="extersion\DataStruct\GQuadTree.h">
+      <Filter>extersion\DataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="extersion\DataStruct\GString.h">
+      <Filter>extersion\DataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="extersion\DataStruct\ObjectPool.hpp">
+      <Filter>extersion\DataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="extersion\Math\Point.h">
+      <Filter>extersion\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="extersion\Math\Rect2D.h">
+      <Filter>extersion\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="extersion\Math\Rect3D.h">
+      <Filter>extersion\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="extersion\Math\Size.h">
+      <Filter>extersion\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="System\MemorySystem\MemoryPool.h">
+      <Filter>System\MemorySystem</Filter>
+    </ClInclude>
+    <ClInclude Include="System\MemorySystem\MemorySystem.h">
+      <Filter>System\MemorySystem</Filter>
+    </ClInclude>
+    <ClInclude Include="System\MemorySystem\Ref.h">
+      <Filter>System\MemorySystem</Filter>
+    </ClInclude>
+    <ClInclude Include="GameHeader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMacro.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GCALLBACK.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="System\GSystem.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\GSystemEngine.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\GTimerSystem\GTimer.h">
+      <Filter>System\GTimerSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="System\GTimerSystem\GTimerSystem.h">
+      <Filter>System\GTimerSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="System\GInputSystem\GInputSystem.h">
+      <Filter>System\GinputSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="System\GDispatcherSystem\GDispatchSystem.h">
+      <Filter>System\GDispatcherSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="System\GDispatcherSystem\GEvent.h">
+      <Filter>System\GDispatcherSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="System\GDispatcherSystem\GEventType.h">
+      <Filter>System\GDispatcherSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="System\GDispatcherSystem\GKeyboardListener.h">
+      <Filter>System\GDispatcherSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="System\GDispatcherSystem\GListener.h">
+      <Filter>System\GDispatcherSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="System\GDispatcherSystem\GMouseListener.h">
+      <Filter>System\GDispatcherSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="GApplication\GApplication.h">
+      <Filter>GApplication</Filter>
+    </ClInclude>
+    <ClInclude Include="nocopy.h">
+      <Filter>extersion\nocopy</Filter>
+    </ClInclude>
+    <ClInclude Include="System\GSystemHeader.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="GResourceType.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="extersion\tinyxml\tinystr.h">
+      <Filter>extersion\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="extersion\tinyxml\tinyxml.h">
+      <Filter>extersion\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="extersion\regex\GRegex.h">
+      <Filter>extersion\regex</Filter>
+    </ClInclude>
+    <ClInclude Include="extersion\regex\pcre2\config.h">
+      <Filter>extersion\regex\pcre2</Filter>
+    </ClInclude>
+    <ClInclude Include="extersion\regex\pcre2\pcre2.h">
+      <Filter>extersion\regex\pcre2</Filter>
+    </ClInclude>
+    <ClInclude Include="extersion\regex\pcre2\pcre2_internal.h">
+      <Filter>extersion\regex\pcre2</Filter>
+    </ClInclude>
+    <ClInclude Include="extersion\regex\pcre2\pcre2_intmodedep.h">
+      <Filter>extersion\regex\pcre2</Filter>
+    </ClInclude>
+    <ClInclude Include="extersion\regex\pcre2\pcre2_jit_match.hpp">
+      <Filter>extersion\regex\pcre2</Filter>
+    </ClInclude>
+    <ClInclude Include="extersion\regex\pcre2\pcre2_jit_misc.hpp">
+      <Filter>extersion\regex\pcre2</Filter>
+    </ClInclude>
+    <ClInclude Include="extersion\regex\pcre2\pcre2_ucp.h">
+      <Filter>extersion\regex\pcre2</Filter>
+    </ClInclude>
+    <ClInclude Include="extersion\DataStruct\GValue.h">
+      <Filter>extersion\DataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="extersion\DataIOUtils\DataIOUtils.h">
+      <Filter>extersion\DataIOUtils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="extersion\Math\Rect2D.cpp">
+      <Filter>extersion\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="extersion\Math\Rect3D.cpp">
+      <Filter>extersion\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="extersion\Math\Size.cpp">
+      <Filter>extersion\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="System\MemorySystem\MemoryPool.cpp">
+      <Filter>System\MemorySystem</Filter>
+    </ClCompile>
+    <ClCompile Include="System\MemorySystem\MemorySystem.cpp">
+      <Filter>System\MemorySystem</Filter>
+    </ClCompile>
+    <ClCompile Include="System\MemorySystem\Ref.cpp">
+      <Filter>System\MemorySystem</Filter>
+    </ClCompile>
+    <ClCompile Include="System\GSystemEngine.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\GTimerSystem\GTimer.cpp">
+      <Filter>System\GTimerSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="System\GTimerSystem\GTimerSystem.cpp">
+      <Filter>System\GTimerSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="System\GInputSystem\GInputSystem.cpp">
+      <Filter>System\GinputSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="System\GDispatcherSystem\GDispatchSystem.cpp">
+      <Filter>System\GDispatcherSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="System\GDispatcherSystem\GEvent.cpp">
+      <Filter>System\GDispatcherSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="System\GDispatcherSystem\GKeyboardListener.cpp">
+      <Filter>System\GDispatcherSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="System\GDispatcherSystem\GListener.cpp">
+      <Filter>System\GDispatcherSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="System\GDispatcherSystem\GMouseListener.cpp">
+      <Filter>System\GDispatcherSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="GApplication\GApplication.cpp">
+      <Filter>GApplication</Filter>
+    </ClCompile>
+    <ClCompile Include="extersion\tinyxml\tinystr.cpp">
+      <Filter>extersion\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="extersion\tinyxml\tinyxml.cpp">
+      <Filter>extersion\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="extersion\tinyxml\tinyxmlerror.cpp">
+      <Filter>extersion\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="extersion\tinyxml\tinyxmlparser.cpp">
+      <Filter>extersion\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="extersion\regex\GRegex.cpp">
+      <Filter>extersion\regex</Filter>
+    </ClCompile>
+    <ClCompile Include="extersion\regex\pcre2\pcre2_auto_possess.c">
+      <Filter>extersion\regex\pcre2</Filter>
+    </ClCompile>
+    <ClCompile Include="extersion\regex\pcre2\pcre2_chartables.c">
+      <Filter>extersion\regex\pcre2</Filter>
+    </ClCompile>
+    <ClCompile Include="extersion\regex\pcre2\pcre2_compile.c">
+      <Filter>extersion\regex\pcre2</Filter>
+    </ClCompile>
+    <ClCompile Include="extersion\regex\pcre2\pcre2_config.c">
+      <Filter>extersion\regex\pcre2</Filter>
+    </ClCompile>
+    <ClCompile Include="extersion\regex\pcre2\pcre2_context.c">
+      <Filter>extersion\regex\pcre2</Filter>
+    </ClCompile>
+    <ClCompile Include="extersion\regex\pcre2\pcre2_dfa_match.c">
+      <Filter>extersion\regex\pcre2</Filter>
+    </ClCompile>
+    <ClCompile Include="extersion\regex\pcre2\pcre2_error.c">
+      <Filter>extersion\regex\pcre2</Filter>
+    </ClCompile>
+    <ClCompile Include="extersion\regex\pcre2\pcre2_jit_compile.c">
+      <Filter>extersion\regex\pcre2</Filter>
+    </ClCompile>
+    <ClCompile Include="extersion\regex\pcre2\pcre2_maketables.c">
+      <Filter>extersion\regex\pcre2</Filter>
+    </ClCompile>
+    <ClCompile Include="extersion\regex\pcre2\pcre2_match.c">
+      <Filter>extersion\regex\pcre2</Filter>
+    </ClCompile>
+    <ClCompile Include="extersion\regex\pcre2\pcre2_match_data.c">
+      <Filter>extersion\regex\pcre2</Filter>
+    </ClCompile>
+    <ClCompile Include="extersion\regex\pcre2\pcre2_newline.c">
+      <Filter>extersion\regex\pcre2</Filter>
+    </ClCompile>
+    <ClCompile Include="extersion\regex\pcre2\pcre2_ord2utf.c">
+      <Filter>extersion\regex\pcre2</Filter>
+    </ClCompile>
+    <ClCompile Include="extersion\regex\pcre2\pcre2_pattern_info.c">
+      <Filter>extersion\regex\pcre2</Filter>
+    </ClCompile>
+    <ClCompile Include="extersion\regex\pcre2\pcre2_serialize.c">
+      <Filter>extersion\regex\pcre2</Filter>
+    </ClCompile>
+    <ClCompile Include="extersion\regex\pcre2\pcre2_string_utils.c">
+      <Filter>extersion\regex\pcre2</Filter>
+    </ClCompile>
+    <ClCompile Include="extersion\regex\pcre2\pcre2_study.c">
+      <Filter>extersion\regex\pcre2</Filter>
+    </ClCompile>
+    <ClCompile Include="extersion\regex\pcre2\pcre2_substitute.c">
+      <Filter>extersion\regex\pcre2</Filter>
+    </ClCompile>
+    <ClCompile Include="extersion\regex\pcre2\pcre2_substring.c">
+      <Filter>extersion\regex\pcre2</Filter>
+    </ClCompile>
+    <ClCompile Include="extersion\regex\pcre2\pcre2_tables.c">
+      <Filter>extersion\regex\pcre2</Filter>
+    </ClCompile>
+    <ClCompile Include="extersion\regex\pcre2\pcre2_ucd.c">
+      <Filter>extersion\regex\pcre2</Filter>
+    </ClCompile>
+    <ClCompile Include="extersion\regex\pcre2\pcre2_valid_utf.c">
+      <Filter>extersion\regex\pcre2</Filter>
+    </ClCompile>
+    <ClCompile Include="extersion\regex\pcre2\pcre2_xclass.c">
+      <Filter>extersion\regex\pcre2</Filter>
+    </ClCompile>
+    <ClCompile Include="extersion\DataStruct\GValue.cpp">
+      <Filter>extersion\DataStruct</Filter>
+    </ClCompile>
+    <ClCompile Include="extersion\DataIOUtils\DataIOUtils.cpp">
+      <Filter>extersion\DataIOUtils</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
