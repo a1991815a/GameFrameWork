@@ -1,5 +1,6 @@
 #include "GApplication.h"
 #include <iostream>
+#include "..\System\GSystemEngine.h"
 
 #pragma warning(push)
 #pragma warning(disable: 4244)
@@ -44,6 +45,8 @@ GApplication::GApplication( const GString& name, int x, int y, int cx, int cy )
 	if(m_hWnd == nullptr)
 		MSG_OUT("CreateWindowExA error!");
 
+	GSystemEngine::getInstance()->InitEngine();
+	GSystemEngine::getInstance()->Init();
 
 	if (!WinCreate(m_hWnd))
 		DestroyWindow();
@@ -56,20 +59,19 @@ GApplication::GApplication( const GString& name, int x, int y, int cx, int cy )
 	if(FAILED(result))
 		MSG_OUT("UpdateWindow error!");
 
-
-
-
-
 	m_strName = name;
 	RECT clientRect = { 0 };
 	::GetClientRect(m_hWnd, &clientRect);
 	m_ClientSize.width = clientRect.right - clientRect.left;
 	m_ClientSize.height = clientRect.bottom - clientRect.top;
+
+	
 }
 
 GApplication::~GApplication()
 {
 	s_pApplication = nullptr;
+	GSystemEngine::getInstance()->Destroy();
 	DestroyWindow();
 }
 

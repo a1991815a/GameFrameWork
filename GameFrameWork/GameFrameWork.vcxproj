@@ -62,6 +62,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="extersion\DebugUtils\DebugUtils.h" />
+    <ClInclude Include="ID3DEDeferredRender.h" />
+    <ClInclude Include="dxUtils.h" />
     <ClInclude Include="extersion\DataIOUtils\DataIOUtils.h" />
     <ClInclude Include="extersion\DataStruct\GQuadTree.h" />
     <ClInclude Include="extersion\DataStruct\GString.h" />
@@ -86,8 +89,9 @@
     <ClInclude Include="GameMacro.h" />
     <ClInclude Include="GApplication\GApplication.h" />
     <ClInclude Include="GCALLBACK.h" />
-    <ClInclude Include="GResource.h" />
-    <ClInclude Include="GResourceType.h" />
+    <ClInclude Include="GRenderSystem.h" />
+    <ClInclude Include="ID3DEInterface.h" />
+    <ClInclude Include="ID3DERenderToTexture.h" />
     <ClInclude Include="nocopy.h" />
     <ClInclude Include="System\GDispatcherSystem\GDispatchSystem.h" />
     <ClInclude Include="System\GDispatcherSystem\GEvent.h" />
@@ -96,6 +100,11 @@
     <ClInclude Include="System\GDispatcherSystem\GListener.h" />
     <ClInclude Include="System\GDispatcherSystem\GMouseListener.h" />
     <ClInclude Include="System\GInputSystem\GInputSystem.h" />
+    <ClInclude Include="System\GResourceCache\GEffect.h" />
+    <ClInclude Include="System\GResourceCache\GResource.h" />
+    <ClInclude Include="System\GResourceCache\GResourceCache.h" />
+    <ClInclude Include="System\GResourceCache\GResourceType.h" />
+    <ClInclude Include="System\GResourceCache\GTexture.h" />
     <ClInclude Include="System\GSystem.h" />
     <ClInclude Include="System\GSystemEngine.h" />
     <ClInclude Include="System\GSystemHeader.h" />
@@ -106,8 +115,10 @@
     <ClInclude Include="System\MemorySystem\Ref.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="dxUtils.cpp" />
     <ClCompile Include="extersion\DataIOUtils\DataIOUtils.cpp" />
     <ClCompile Include="extersion\DataStruct\GValue.cpp" />
+    <ClCompile Include="extersion\DebugUtils\DebugUtils.cpp" />
     <ClCompile Include="extersion\Math\Rect2D.cpp" />
     <ClCompile Include="extersion\Math\Rect3D.cpp" />
     <ClCompile Include="extersion\Math\Size.cpp" />
@@ -140,18 +151,28 @@
     <ClCompile Include="extersion\tinyxml\tinyxmlerror.cpp" />
     <ClCompile Include="extersion\tinyxml\tinyxmlparser.cpp" />
     <ClCompile Include="GApplication\GApplication.cpp" />
+    <ClCompile Include="GRenderSystem.cpp" />
+    <ClCompile Include="ID3DEDeferredRender.cpp" />
+    <ClCompile Include="ID3DERenderToTexture.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="System\GDispatcherSystem\GDispatchSystem.cpp" />
     <ClCompile Include="System\GDispatcherSystem\GEvent.cpp" />
     <ClCompile Include="System\GDispatcherSystem\GKeyboardListener.cpp" />
     <ClCompile Include="System\GDispatcherSystem\GListener.cpp" />
     <ClCompile Include="System\GDispatcherSystem\GMouseListener.cpp" />
     <ClCompile Include="System\GInputSystem\GInputSystem.cpp" />
+    <ClCompile Include="System\GResourceCache\GEffect.cpp" />
+    <ClCompile Include="System\GResourceCache\GResourceCache.cpp" />
+    <ClCompile Include="System\GResourceCache\GTexture.cpp" />
     <ClCompile Include="System\GSystemEngine.cpp" />
     <ClCompile Include="System\GTimerSystem\GTimer.cpp" />
     <ClCompile Include="System\GTimerSystem\GTimerSystem.cpp" />
     <ClCompile Include="System\MemorySystem\MemoryPool.cpp" />
     <ClCompile Include="System\MemorySystem\MemorySystem.cpp" />
     <ClCompile Include="System\MemorySystem\Ref.cpp" />
+    <ClCompile Include="WinCreate.cpp" />
+    <ClCompile Include="WinDestroy.cpp" />
+    <ClCompile Include="WinLoop.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
